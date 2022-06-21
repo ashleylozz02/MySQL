@@ -26,10 +26,9 @@ GROUP BY Make
 HAVING COUNT(*) > 0;
 
 INSERT INTO cars2 (Year, Make, Model) VALUES
-	(2022, 'RAM','Laramie'),
-    (2020, 'Toyota','Camry'),
-    (2018, 'Chevy','Malibu')
-   
+	 ('A-Class','Mercedes-Benz','2022'),
+('A3','	Audi','2023'),
+('A4','Audi','2021');
    -- Create a new query that adds an additional column to the results to show how many cars have the same Make.
    SELECT Make, COUNT(*)
 FROM cars2
