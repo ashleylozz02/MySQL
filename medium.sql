@@ -1,6 +1,6 @@
 Use GI;
 
-INSERT INTO movies2( Title, ReleaseDate, Rating, Director_First, Director_Last) VALUES
+INSERT INTO movies( Title, ReleaseDate, Rating,) VALUES
 ('Spiderman Homecomming','2017','Pg-13','Jon', 'watts'),
 ('Spiderman Far From home',	'2019','Pg-13', 'Jon','watts'),
 ('Spiderman no way home ','2021','pg-13', 'Jon','watts'),
