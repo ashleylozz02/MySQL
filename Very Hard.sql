@@ -1,10 +1,9 @@
 USE GI;
 
 INSERT INTO cars2 (Year, Make, Model) VALUES
-	(2022, 'RAM','Laramie'),
-    (2020, 'Toyota','Camry'),
-    (2018, 'Chevy','Malibu')
-;
+	 ('A-Class','Mercedes-Benz','2022'),
+('A3','	Audi','2023'),
+('A4','Audi','2021');
 ALTER TABLE cars2
 ADD COLUMN Color VARCHAR(20),
 ADD COLUMN Price DECIMAL(10,2);
