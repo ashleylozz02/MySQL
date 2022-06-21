@@ -19,7 +19,7 @@ SET Color = "Silver", Price = 15000.00
 WHERE Id = 3;
 -- Write a query to put the Make and Model together in one column
 SELECT CONCAT(Make, ' ', Model) AS "Make and Model", Year, Color, Price FROM cars2;
--- Create a new query that adds an additional column to the results to show how many cars have the same Make.
+
 SELECT Make, COUNT(*)
 FROM cars2
 GROUP BY Make
